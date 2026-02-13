@@ -3,7 +3,6 @@
  *
  *  Created on: Feb 12, 2026
  *      Author: Rubin Khadka
-
  */
  
 #include "stm32f10x.h"		// Device header
