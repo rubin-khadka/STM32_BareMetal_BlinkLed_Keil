@@ -412,12 +412,12 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>start</GroupName>
+          <GroupName>startup</GroupName>
           <Files>
             <File>
               <FileName>startup_stm32f10x_md.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Start\startup_stm32f10x_md.s</FilePath>
+              <FilePath>.\Startup\startup_stm32f10x_md.s</FilePath>
             </File>
           </Files>
         </Group>
