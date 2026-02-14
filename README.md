@@ -13,7 +13,7 @@ This is the **Keil uVision5 version** of my bare-metal blink-led STM32F103C8 pro
 You can find the STM32CubeIDE version here:  
 🔗 [STM32_BareMetal_BlinkLed_STM32cubeIDE](https://github.com/rubin-khadka/STM32_BareMetal_BlinkLed_STM32cubeIDE)
 
-## Features
+### Features
 
 | Feature | Description |
 |---------|-------------|
@@ -26,8 +26,8 @@ You can find the STM32CubeIDE version here:
 
 | Aspect | STM32CubeIDE (GCC) | Keil uVision5 (ARMCLANG) |
 |--------|---------------------|--------------------------|
-| **Code Size** | 936 bytes | **712 bytes** |
-| **Total Flash** | 2504 bytes | **984 bytes** |
+| **Code Size** | 936 bytes | 712 bytes |
+| **Total Flash** | 2504 bytes | 984 bytes |
 | **Build Time** | 153ms | ~1s |
 | **RAM Usage** | 1568 bytes | 1640 bytes |
 | **Compiler** | arm-none-eabi-gcc | ARMCLANG V6.18 |
@@ -68,7 +68,7 @@ https://github.com/user-attachments/assets/cc511bb2-c0b4-4bc1-b9db-fd029f3f6868
 | **Crystal** | 8MHz HSE (onboard) |
 | **LED** | PC13 (onboard, active LOW) |
 | **Programmer** | ST-Link V2 |
-    | **IDE** | Keil uVision5 (MDK-ARM) |
+| **IDE** | Keil uVision5 (MDK-ARM) |
 
 ### Installation
 
@@ -77,26 +77,26 @@ https://github.com/user-attachments/assets/cc511bb2-c0b4-4bc1-b9db-fd029f3f6868
 git clone https://github.com/rubin-khadka/STM32_BareMetal_BlinkLed_Keil.git
 ```
 2. Open in Keil uVision5
-- Double-click the project file (.uvprojx)
-- Or `Project` → `Open Project` → select file
+    - Double-click the project file (.uvprojx)
+    - Or `Project` → `Open Project` → select file
 
 3. Configure Project Settings
-- Ensure device is set to STM32F103C8
-- `Project` → `Options for Target` → `C/C++` tab
-- Add `STM32F10X_MD` to Preprocessor Symbols `Define`
-- Also add `Include Paths`:
-    - ~\Keil\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+    - Ensure device is set to STM32F103C8
+    - `Project` → `Options for Target` → `C/C++` tab
+    - Add `STM32F10X_MD` to Preprocessor Symbols `Define`
+    - Also add `Include Paths`:
+        - ~\Keil\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
 
 4. Build & Flash
-- Build: `F7`
-- Flash: `F8` (if using ST-Link)
-- Or `Debug` → `Start/Stop Debug Session`
+    - Build: `F7`
+    - Flash: `F8` (if using ST-Link)
+    - Or `Debug` → `Start/Stop Debug Session`
 
 Expected Behavior
-- LED ON: 500ms
-- LED OFF: 500ms
-- Cycle: 1 second total
-- Frequency: 1 Hz
+    - LED ON: 500ms
+    - LED OFF: 500ms
+    - Cycle: 1 second total
+    - Frequency: 1 Hz
 
 LED blinks at 1Hz = 72MHz configured correctly
 
