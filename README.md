@@ -6,9 +6,11 @@
 
 ## Project Overview
 
-This is the **Keil uVision5 version** of [my bare-metal blink-led STM32F103C8 project](https://github.com/rubin-khadka/STM32_BareMetal_BlinkLed_STM32cubeIDE). It was created to learn Keil and compare the two toolchains. It demonstrates the exact same functionality as the STM32CubeIDE version. It configures the 72MHz system clock from the 8MHz HSE crystal and PLL, and blinking the onboard LED on PC13 but built with Keil's ARMCLANG compiler.
+This is the **Keil uVision5 version** of my bare-metal blink-led STM32F103C8 project. It was created to learn Keil and compare the two toolchains (Keil and CubeIDE). It demonstrates the exact same functionality as the **STM32CubeIDE** version. It configures the **72MHz system clock from the 8MHz HSE crystal and PLL**, and blinking the onboard LED on PC13 but built with Keil's ARMCLANG compiler.
 
 **Purpose:** Compare toolchains (Keil vs CubeIDE) and their impact on code size, build process, and developer experience.
+You can find the STM32CubeIDE version here:  
+🔗 [STM32_BareMetal_BlinkLed_STM32cubeIDE](https://github.com/rubin-khadka/STM32_BareMetal_BlinkLed_STM32cubeIDE)
 
 ## Features
 
@@ -65,7 +67,7 @@ https://github.com/user-attachments/assets/cc511bb2-c0b4-4bc1-b9db-fd029f3f6868
 | **Crystal** | 8MHz HSE (onboard) |
 | **LED** | PC13 (onboard, active LOW) |
 | **Programmer** | ST-Link V2 |
-| **IDE** | Keil uVision5 (MDK-ARM) |
+    | **IDE** | Keil uVision5 (MDK-ARM) |
 
 ### Installation
 
@@ -95,6 +97,8 @@ Expected Behavior
 - Cycle: 1 second total
 - Frequency: 1 Hz
 
+LED blinks at 1Hz = 72MHz configured correctly
+
 ## Memory Footprint
 | Section | Size | Description |
 |--------|------|-------------|
@@ -103,9 +107,8 @@ Expected Behavior
 |RW-data| 4 bytes	| Initialized variables |
 |ZI-data| 1636 bytes	| Uninitialized variables |
 |Total Flash| 984 bytes	| Code + RO-data + RW-data |
-Total Flash Usage: <1KB — Extremely efficient!
 
-LED blinks at 1Hz = 72MHz configured correctly
+Total Flash Usage: <1KB — Extremely efficient!
 
 ## Resources
 - [STM32F103 Datasheet](https://www.st.com/resource/en/datasheet/stm32f103c8.pdf)
