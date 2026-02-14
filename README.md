@@ -9,6 +9,7 @@
 This is the **Keil uVision5 version** of my bare-metal blink-led STM32F103C8 project. It was created to learn Keil and compare the two toolchains (Keil and CubeIDE). It demonstrates the exact same functionality as the **STM32CubeIDE** version. It configures the **72MHz system clock from the 8MHz HSE crystal and PLL**, and blinking the onboard LED on PC13 but built with Keil's ARMCLANG compiler.
 
 **Purpose:** Compare toolchains (Keil vs CubeIDE) and their impact on code size, build process, and developer experience.
+
 You can find the STM32CubeIDE version here:  
 🔗 [STM32_BareMetal_BlinkLed_STM32cubeIDE](https://github.com/rubin-khadka/STM32_BareMetal_BlinkLed_STM32cubeIDE)
 
