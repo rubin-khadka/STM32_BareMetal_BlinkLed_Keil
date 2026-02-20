@@ -4,11 +4,15 @@
 ![STM32](https://img.shields.io/badge/STM32-F103C8T6-blue)
 ![Keil](https://img.shields.io/badge/IDE-Keil--uVision5-green)
 
+## Video Demonstration
+
+https://github.com/user-attachments/assets/cc511bb2-c0b4-4bc1-b9db-fd029f3f6868
+
 ## Project Overview
 
 This is the **Keil uVision5 version** of my bare-metal blink-led STM32F103C8 project. It was created to learn Keil and compare the two toolchains (Keil and CubeIDE). It demonstrates the exact same functionality as the **STM32CubeIDE** version. It configures the **72MHz system clock from the 8MHz HSE crystal and PLL**, and blinking the onboard LED on PC13 but built with Keil's ARMCLANG compiler.
 
-**Purpose:** Compare toolchains (Keil vs CubeIDE) and their impact on code size, build process, and developer experience.
+**Purpose:** Learn and Compare toolchains (Keil vs CubeIDE) and their impact on code size, build process, and developer experience.
 
 You can find the STM32CubeIDE version here:  
 🔗 [STM32_BareMetal_BlinkLed_STM32cubeIDE](https://github.com/rubin-khadka/STM32_BareMetal_BlinkLed_STM32cubeIDE)
@@ -37,14 +41,7 @@ You can find the STM32CubeIDE version here:
 - STM32CubeIDE builds significantly faster
 - RAM usage is comparable between both toolchains
 
-
-## Video Demonstration
-
-https://github.com/user-attachments/assets/cc511bb2-c0b4-4bc1-b9db-fd029f3f6868
-
-*Same hardware, same behavior — LED blinks at 1Hz with 72MHz clock*
-
-## Key Registers Configured
+## Key Registers Configuration
 
 | Register | Setting | Purpose |
 |----------|---------|---------|
