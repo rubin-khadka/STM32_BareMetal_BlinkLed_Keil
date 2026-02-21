@@ -111,11 +111,11 @@
         <DllOption>
           <SimDllName>SARMCM3.DLL</SimDllName>
           <SimDllArguments> -REMAP</SimDllArguments>
-          <SimDlgDll>DARMSTM.dll</SimDlgDll>
+          <SimDlgDll>DARMSTM.DLL</SimDlgDll>
           <SimDlgDllArguments>-pSTM32F103C8</SimDlgDllArguments>
           <TargetDllName>SARMCM3.DLL</TargetDllName>
           <TargetDllArguments></TargetDllArguments>
-          <TargetDlgDll>TARMSTM.dll</TargetDlgDll>
+          <TargetDlgDll>TARMSTM.DLL</TargetDlgDll>
           <TargetDlgDllArguments>-pSTM32F103C8</TargetDlgDllArguments>
         </DllOption>
         <DebugOption>
@@ -399,6 +399,11 @@
               <FileType>1</FileType>
               <FilePath>.\Core\src\gpio.c</FilePath>
             </File>
+            <File>
+              <FileName>timer2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Core\src\timer2.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -408,6 +413,11 @@
               <FileName>gpio.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Core\inc\gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>timer2.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Core\inc\timer2.h</FilePath>
             </File>
           </Files>
         </Group>
