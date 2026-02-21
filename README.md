@@ -1,12 +1,16 @@
 # STM32 BareMetal BlinkLed Keil
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![STM32](https://img.shields.io/badge/STM32-F103C8T6-blue)
-![Keil](https://img.shields.io/badge/IDE-Keil--uVision5-green)
+![STM32](https://img.shields.io/badge/STM32-F103C8T6-darkblue)
+![Keil](https://img.shields.io/badge/IDE-Keil--uVision5-darkgreen)
 
 ## Video Demonstration
 
-https://github.com/user-attachments/assets/cc511bb2-c0b4-4bc1-b9db-fd029f3f6868
+
+
+https://github.com/user-attachments/assets/9a24c68e-90e6-4c9c-91b8-bdc45894e41e
+
+
 
 ## Project Overview
 
