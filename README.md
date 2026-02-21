@@ -123,5 +123,5 @@ Total Flash Usage: <1KB — Extremely efficient!
 
 ## Contact
 **Rubin Khadka Chhetri**  
-📧 rubin.robotic@gmail.com  
+📧 rubinkhadka84@gmail.com  
 🐙 GitHub: https://github.com/rubin-khadka
